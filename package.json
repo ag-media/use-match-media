@@ -1,10 +1,10 @@
 {
-  "name": "use-match-media-hook",
-  "version": "1.0.0",
+  "name": "@ag-media/use-match-media-hook",
+  "version": "1.0.2",
   "main": "dist/bundle.js",
   "module": "dist/bundle.esm.js",
   "types": "src/types.d.ts",
-  "repository": "https://github.com/jepser/use-match-media.git",
+  "repository": "https://github.com/ag-media/use-match-media.git",
   "author": "Jepser Bernardino <jepsersk8@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -48,8 +48,8 @@
     "typescript": "^3.7.5"
   },
   "peerDependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": ">=16.12.0",
+    "react-dom": ">=16.12.0"
   },
   "scripts": {
     "dev": "rollup -c -w",

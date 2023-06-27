@@ -5,7 +5,7 @@ There are cases that is needed to set conditions outside the render/return of th
 
 ### Installation
 
-1. Install `yarn add use-match-media-hook` or `npm i --save use-match-media-hook`
+1. Install `yarn add @ag-media/use-match-media-hook` or `npm i --save @ag-media/use-match-media-hook`
 
 ### Arguments
 - queries <Array>: array of media queries following [the spec](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia).
@@ -16,7 +16,7 @@ There are cases that is needed to set conditions outside the render/return of th
 #### Common usage:
 
 ``` jsx
-import useMatchMedia from 'use-match-media-hook'
+import useMatchMedia from '@ag-media/use-match-media-hook'
 
 const queries = [
   '(max-width: 400px)',
@@ -37,7 +37,7 @@ const Component = () => {
 The following example will render true in the server (if window doesn't exists).
 
 ``` jsx
-import useMatchMedia from 'use-match-media-hook'
+import useMatchMedia from '@ag-media/use-match-media-hook'
 
 const queries = [
   '(min-width: 600px)'
@@ -57,7 +57,7 @@ Since there is not a reliable-simple way to know the client window, the library 
 The second argument is the initial value that is used in the SSR, so depending of the strategy you might want to set it as false or true.
 
 ``` jsx
-import useMatchMedia from 'use-match-media-hook'
+import useMatchMedia from '@ag-media/use-match-media-hook'
 
 const queries = [
   '(min-width: 600px)'
